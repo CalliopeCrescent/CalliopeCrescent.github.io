@@ -1,7 +1,7 @@
 import calliopeLogo from '../assets/Logo.webp'
 
 document.querySelector('#navbar').innerHTML = `
-<div class="navbar fixed top-0 z-1000 h-14 bg-(--background)/70 w-dvw backdrop-blur-xs block">
+<div class="navbar absolute top-0 z-1000 h-14 bg-(--background)/70 w-dvw backdrop-blur-xs block">
     <a href="/">
         <div class="float-left ml-5 h-full">
             <svg class="flex h-full w-auto p-2 fill-(--secondary)" xmlns="http://www.w3.org/2000/svg" viewBox="500 1700 3000 450">
