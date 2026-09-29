@@ -93,8 +93,29 @@ body {
   }
 }
 
+.navmenu {
+  a {
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1.6rem;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  a:hover {
+    background: rgb(44 42 75 / 90%);
+    color: white;
+  }
+}
+
 .navline {
   top: 53px;
+}
+
+.show-nav-menu {
+  display: block;
 }
 
 .wiggle-path {

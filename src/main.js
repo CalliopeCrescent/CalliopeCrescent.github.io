@@ -4,7 +4,7 @@ import calliopeLogo from './assets/Logo.webp'
 document.querySelector('#app').innerHTML = `
 <article id="banner" class="">
     <section class="hero relative">
-        <img src="${calliopeLogo}" alt="Calliope Logo" class="object-cover w-full lg:h-dvh md:h-auto">
+        <img src="${calliopeLogo}" alt="Calliope Logo" class="object-cover w-full lg:h-dvh sm:h-auto">
     </section>
 </article>
 
@@ -12,14 +12,13 @@ document.querySelector('#app').innerHTML = `
     <section id="about" aria-label="About Me" class="scroll-mt-25">
         <div class="basic-container bg-(--background)/50 rounded-lg">
             <h1>ABOUT ME</h1>
-            <div class="flex lg:flex-row md:flex-col">
-                <div class="flex flex-col lg:w-1/2 md:h-1/2 p-10 text-justify"> 
+            <div class="flex lg:flex-row max-lg:flex-col">
+                <div class="flex flex-col lg:w-1/2 max-lg:h-1/2 p-10 text-justify"> 
                     <p>Hi, I'm Calliope!</p>
-                    <p>I'm an avid programmer based in California that loves to intersect my love for TTRPGs with technology. 
-                    I focus on tools that help creators create the stories that they want to make.</p>
-                    <p>As a hobby, I try to run everything local on a Proxmox home lab setup to run game and web servers!</p>
+                    <p>I'm an avid programmer based in California that loves to intersect my love for storytelling with technology. 
+                    I focus on tools that help creators create the stories that they want to make!</p>
                 </div>
-                <div class="flex lg:w-1/2 md:h-1/2 p-10">
+                <div class="flex lg:w-1/2 max-lg:h-1/2 p-10">
                 </div>
             </div>
         </div>
@@ -29,7 +28,7 @@ document.querySelector('#app').innerHTML = `
         <div class="basic-container bg-white rounded-lg">
             <h1 class="text-(--background)!">PROJECTS</h1>
             <div class="flex flex-col justify-center text-(--background)">
-                <p>All my projects can be found on Github here:</p>
+                <p>All my projects can be found on Github:</p>
                 <a 
                 href="https://github.com/CalliopeCrescent" 
                 target="_blank" rel="noopener noreferrer" 
@@ -65,8 +64,8 @@ document.querySelector('#app').innerHTML = `
     <section id="resume" aria-label="Resume" class="scroll-mt-25">
         <div class="basic-container bg-(--primary)/50 rounded-lg">
             <h1>RESUME</h1>
-            <div class="flex flex-row">
-                <div class="flex w-1/2 p-10 text-justify"> 
+            <div class="flex lg:flex-row max-lg:flex-col-reverse">
+                <div class="flex lg:w-1/2 max-lg:h-1/2 p-10 text-justify"> 
                     <div class="w-full h-full">
                         <object
                             data="https://drive.google.com/file/d/1-xfu5wdzC651v7hcr7LhDMqG2__bshul/preview"
@@ -76,7 +75,7 @@ document.querySelector('#app').innerHTML = `
                         </object>
                     </div>
                 </div>
-                <div class="flex w-1/2 p-10 justify-center">
+                <div class="flex lg:w-1/2 max-lg:h-1/2 p-10 justify-center">
                     <div class="flex flex-col justify-center">
                         <p>Take a look at my résumé here:</p>
                         <a href="https://drive.google.com/file/d/1-xfu5wdzC651v7hcr7LhDMqG2__bshul/preview" 
