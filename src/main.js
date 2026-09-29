@@ -2,9 +2,9 @@ import './style.css'
 import calliopeLogo from './assets/Logo.webp'
 
 document.querySelector('#app').innerHTML = `
-<article id="banner">
-    <section class="hero w-dvw h-dvh flex justify-center text-center">
-        <img src="${calliopeLogo}" alt="Calliope Logo" class="logo text-center">
+<article id="banner" class="">
+    <section class="hero relative">
+        <img src="${calliopeLogo}" alt="Calliope Logo" class="object-cover w-full lg:h-dvh md:h-auto">
     </section>
 </article>
 
@@ -12,14 +12,14 @@ document.querySelector('#app').innerHTML = `
     <section id="about" aria-label="About Me" class="scroll-mt-25">
         <div class="basic-container bg-(--background)/50 rounded-lg">
             <h1>ABOUT ME</h1>
-            <div class="flex flex-row">
-                <div class="flex flex-col w-1/2 p-10 text-justify"> 
+            <div class="flex lg:flex-row md:flex-col">
+                <div class="flex flex-col lg:w-1/2 md:h-1/2 p-10 text-justify"> 
                     <p>Hi, I'm Calliope!</p>
                     <p>I'm an avid programmer based in California that loves to intersect my love for TTRPGs with technology. 
                     I focus on tools that help creators create the stories that they want to make.</p>
-                    <p>My priority is to run everything local on a Proxmox home lab setup to run game and web servers!</p>
+                    <p>As a hobby, I try to run everything local on a Proxmox home lab setup to run game and web servers!</p>
                 </div>
-                <div class="flex w-1/2 p-10">
+                <div class="flex lg:w-1/2 md:h-1/2 p-10">
                 </div>
             </div>
         </div>
