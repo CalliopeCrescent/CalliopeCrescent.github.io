@@ -13,7 +13,7 @@ document.querySelector('#app').innerHTML = `
         <div class="basic-container bg-(--background)/50 rounded-lg">
             <h1>ABOUT ME</h1>
             <div class="flex lg:flex-row max-lg:flex-col">
-                <div class="flex flex-col lg:w-1/2 max-lg:h-1/2 p-10 text-justify"> 
+                <div class="flex flex-col lg:w-1/2 max-lg:h-1/2 p-5 text-justify"> 
                     <p>Hi, I'm Calliope!</p>
                     <p>I'm an avid programmer based in California that loves to intersect my love for storytelling with technology. 
                     I focus on tools that help creators create the stories that they want to make!</p>
@@ -27,7 +27,7 @@ document.querySelector('#app').innerHTML = `
     <section id="projects" aria-label="Projects" class="scroll-mt-25">
         <div class="basic-container bg-white rounded-lg">
             <h1 class="text-(--background)!">PROJECTS</h1>
-            <div class="flex flex-col justify-center text-(--background)">
+            <div class="flex flex-col justify-center text-(--background) p-5">
                 <p>All my projects can be found on Github:</p>
                 <a 
                 href="https://github.com/CalliopeCrescent" 
@@ -65,7 +65,7 @@ document.querySelector('#app').innerHTML = `
         <div class="basic-container bg-(--primary)/50 rounded-lg">
             <h1>RESUME</h1>
             <div class="flex lg:flex-row max-lg:flex-col-reverse">
-                <div class="flex lg:w-1/2 max-lg:h-1/2 p-10 text-justify"> 
+                <div class="flex lg:w-1/2 max-lg:h-1/2 p-5 text-justify"> 
                     <div class="w-full h-full">
                         <object
                             data="https://drive.google.com/file/d/1-xfu5wdzC651v7hcr7LhDMqG2__bshul/preview"
@@ -75,7 +75,7 @@ document.querySelector('#app').innerHTML = `
                         </object>
                     </div>
                 </div>
-                <div class="flex lg:w-1/2 max-lg:h-1/2 p-10 justify-center">
+                <div class="flex lg:w-1/2 max-lg:h-1/2 p-5 justify-center">
                     <div class="flex flex-col justify-center">
                         <p>Take a look at my résumé here:</p>
                         <a href="https://drive.google.com/file/d/1-xfu5wdzC651v7hcr7LhDMqG2__bshul/preview" 
